@@ -416,7 +416,7 @@ namespace Orphanage
                         new SqlParameter("@photo",photoSave),
                         new SqlParameter("@ItemQty",drpItemCount.SelectedValue),
                         new SqlParameter("@UoM",drpItemUoM.SelectedValue)};
-                        SqlHelper.ExecuteNonQuery(connString, CommandType.StoredProcedure, "dbo.Claims_FireProtectionUpload_Update", param);
+                        SqlHelper.ExecuteNonQuery(Connstring, CommandType.StoredProcedure, "dbo.Orphanage_Donation_trans", param);
                         lblError.Text = "Upload Successful";
                     //}
              
