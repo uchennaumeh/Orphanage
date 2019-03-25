@@ -9,6 +9,7 @@ using System.Web.Configuration;
 using System.Data.SqlClient;
 using Microsoft.ApplicationBlocks.Data;
 using System.Configuration;
+using System.Text;
 
 namespace Orphanage
 {
@@ -53,19 +54,63 @@ namespace Orphanage
                   
                     }
                     fre.Close();
+                btnLogin.Visible = false;
 
                     if (check == "tester")
-                    {
-                        Response.Redirect("tester.aspx");
+                {
+                    
+                    //string url = "tester.aspx";
+                    //string url2 = "Notester.aspx";
+
+                    //StringBuilder sb = new StringBuilder();
+
+                    //sb.Append("<script type = 'text/javascript'>");
+
+                    //sb.Append("window.open('");
+
+                    //sb.Append(url);
+
+                    //sb.Append("');");
+
+                    //sb.Append("</script>");
+
+                    //ClientScript.RegisterStartupScript(this.GetType(),
+
+                    //        "script", sb.ToString());
+                    Response.Write("<script type = 'text/javascript'>window.open('MakeDonation.aspx','_blank');</script>");
+                    //Response.Redirect("tester.aspx");
                     }
                    
                     else
                     {
-                        Response.Redirect("Notester.aspx");
-                    }
-                    
 
-                }
+
+                    //string url = "tester.aspx";
+                    //string url2 = "Notester.aspx";
+
+                    //StringBuilder sb = new StringBuilder();
+
+                    //sb.Append("<script type = 'text/javascript'>");
+
+                    //sb.Append("window.open('");
+
+                    //sb.Append(url);
+
+                    //sb.Append("');");
+
+                    //sb.Append("</script>");
+
+                    //ClientScript.RegisterStartupScript(this.GetType(),
+
+                    //        "script", sb.ToString());
+                    Response.Write("<script>window.open ('MakeDonation.aspx','_blank');</script>");
+                    //Response.Redirect("Notester.aspx");
+                    }
+
+
+
+
+            }
                 else
                 {
                     lblError.Text = "Access is Denied";

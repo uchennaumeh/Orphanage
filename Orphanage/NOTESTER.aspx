@@ -8,9 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="content" style="width: 1366px; height: 768px !important;">
             NO TESTER
         </div>
     </form>
 </body>
 </html>
+
+

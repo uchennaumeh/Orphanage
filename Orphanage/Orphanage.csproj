@@ -168,6 +168,7 @@
     <Content Include="js\TweenMax.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Login2.aspx" />
+    <Content Include="MakeDonation.aspx" />
     <Content Include="NOTESTER.aspx" />
     <Content Include="obj\Debug\HighchartsWebApp.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\HighchartsWebApp.dll" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="Login2.aspx.designer.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakeDonation.aspx.cs">
+      <DependentUpon>MakeDonation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakeDonation.aspx.designer.cs">
+      <DependentUpon>MakeDonation.aspx</DependentUpon>
     </Compile>
     <Compile Include="NOTESTER.aspx.cs">
       <DependentUpon>NOTESTER.aspx</DependentUpon>
@@ -265,6 +273,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ItemPhoto\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>

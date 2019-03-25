@@ -179,9 +179,9 @@ body{
 	<%--<a href="1.html" target="main"><div id="btn1" style="float:left"> <p> About Us </p> </div> </a>--%>
     <a href="Default3.aspx"><div id="btn1" style="float:left"> <p> About Us </p> </div> </a>
     <a href="login2.aspx"><div id="btn2" style="float:left"> <p> Contact Us </p> </div> </a>
-    <a href="3.html" target="main"><div id="btn3" style="float:left"> <p> Feedback </p> </div> </a>
-    <a href="4.html" target="main"><div id="btn4" style="float:left"> <p> Make Donations </p> </div> </a>
-    <a href="UserLogin.aspx?comp=tester"><div id="btn5" style="float:left"> <p> Get Items </p> </div> </a>
+    <a href="2.html" target="main"><div id="btn3" style="float:left"> <p> Feedback </p> </div> </a>
+    <a href="4.html" target="main" target="main"><div id="btn4" style="float:left"> <p> Make Donations </p> </div> </a>
+    <a href="UserLogin.aspx?comp=tester" target="main"><div id="btn5" style="float:left"> <p> Get Items </p> </div> </a>
     
     <a href="Login.aspx"><div id="btn6" style="float:left"> <p> Auction Items </p> </div> </a>
     <div id="content" style="position:absolute"> <iframe name="main" frameborder=0 height=450 width=750></iframe>  </div>
